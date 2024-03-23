@@ -56,7 +56,8 @@ const buildPlayers = (players, type) => {
     let fragment = '';
 
     // Loop through players and accumulate HTML template
-    // depending on the type of player (hero|villain)
+    // depending of type of player(hero|villain)
+    // Type your code here
     players.forEach(player => {
         if (player.type === type && player.strength !== undefined) {
             fragment += `<div class="player">
